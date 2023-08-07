@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+}
+.header {
+    background-image: url(./img/header.png);
+    color: yellow;
+    display: flex;
+    font-size: 30px;
+    padding-top: 2rem;
+}
+.h2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    }
+#columna1 {
+    position: absolute;
+    width:200px;
+    margin-top:10px;
+}
+#columna2 {
+    margin-left:220px;
+    margin-right:20px;
+    margin-top:10px;
+}
