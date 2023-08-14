@@ -61,6 +61,10 @@ ol {
     margin-inline-end: 0px;
     padding-inline-start: 40px;
 }
+table, tr, th, td {
+    border: 1px solid white;
+    padding: 2vh;
+}
 .h2 {
     background-color: #f3d915;
     color: black;
@@ -107,10 +111,18 @@ ol {
     margin-top: 10px;
     text-align: center;
 }
+.title {
+    text-align: center;
+    font-size: 30px;
+}
+.distinto {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
 table {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 20px;
 }
 table th {
     padding-top: 20px;
@@ -132,4 +144,8 @@ footer {
     background-color: #f3d915;
     color: black;
     text-align: center;
+}
+.adic {
+    text-align: initial;
+    margin-left: 20px;
 }
