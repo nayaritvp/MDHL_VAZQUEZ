@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a {
+    list-style: none;
+    background-color:#f3d915;
+    border-radius: 20%;
+    align-items: center;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+    padding: 5px;
+}
+a:hover {
+    background-color: rgb(179, 173, 173);
+}
+.bajonav {
+    background-image: url(../assets/img/design1_image1.jpg);
+    height: 500px;
+    color: #f3d915;
+    text-decoration:underline overline;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    padding-top: 20px;
+    text-align: center;
+}
+#Subt {
+    text-align: center;
+    color: #f3d915;
+}
+main {
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.lista1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+}
+ol {
+    display: block;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+table, tr, th, td {
+    border: 1px solid white;
+    padding: 2vh;
+}
+.h2 {
+    background-color: #f3d915;
+    color: black;
+    text-align: center;
+    }
+#columna1 {
+    display: flex;
+    justify-content: space-around;
+}
+#columna2 {
+    display: flex;
+    justify-content:space-around;
+    padding-top: 10px;
+}
+#columna3 {
+    display: flex;
+    justify-content:space-around;
+    padding-top: 10px;
+}
+#columna4 {
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    padding-top: 15px;
+}
+.rules {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#p1 {
+    margin-top: 10px;
+    text-align: center;
+}
+#p2 {
+    margin-top: 10px;
+    text-align: center;
+}
+#p3 {
+    margin-top: 10px;
+    text-align: center;
+}
+#p4 {
+    margin-top: 10px;
+    text-align: center;
+}
+.title {
+    text-align: center;
+    font-size: 30px;
+}
+.distinto {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+table {
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+table th {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+table td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.adic {
+    text-align: center;
+    padding-top: 20px;
+}
+footer {
+    background-color: #f3d915;
+    color: black;
+    text-align: center;
+}
+.adic {
+    text-align: initial;
+    margin-left: 20px;
+}
+#regtil {
+    text-align: center;
+}
+.fieldset1 {
+    border-width: 2px;
+    border-style: groove;
+    border-color:#f3d915;
+    border-image: initial;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-around;
+    text-align: center;
+    line-height: 3rem;
+    margin: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.fieldset2 {
+    text-align: center;
+    margin: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-width: 2px;
+    border-style: groove;
+    border-color:#f3d915;
+    border-image: initial;
+}
+.fieldset3 {
+    text-align: center;
+    margin: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-width: 2px;
+    border-style: groove;
+    border-color:#f3d915;
+    border-image: initial;
+}
+h3 {
+    margin-left: 20px;
+}
+.fieldset4 {
+    margin: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-width: 2px;
+    border-style: groove;
+    border-color:#f3d915;
+    border-image: initial;
+    padding: 10px;
+}
+.fieldset5 {
+    margin: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-width: 2px;
+    border-style: groove;
+    border-color:#f3d915;
+    border-image: initial;
+    padding: 10px;
+}
+.fieldset6 {
+    margin: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-width: 2px;
+    border-style: groove;
+    border-color:#f3d915;
+    border-image: initial;
+    padding: 10px;
+}
+.permision {
+    margin: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.fieldset7 {
+    margin: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-width: 2px;
+    border-style: groove;
+    border-color:#f3d915;
+    border-image: initial;
+    padding: 10px;
+}
+.fieldset8 {
+    border: 0;
+    text-align: center;
+}
