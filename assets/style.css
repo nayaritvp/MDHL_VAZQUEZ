@@ -121,7 +121,7 @@ table, tr, th, td {
 }
 table {
     text-align: center;
-    margin-left: 300px;
+    margin-left: 250px;
     margin-top: 20px;
 }
 table th {
@@ -246,4 +246,8 @@ h3 {
 .fieldset8 {
     border: 0;
     text-align: center;
+}
+iframe {
+    width: 150px;
+    height: 150px;
 }
